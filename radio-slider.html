@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+    <style>
+        html,body {
+  margin: 0;
+}
+div {
+  margin: 0;
+}
+.slide {
+  
+  
+  overflow: hidden;
+}
+
+input{
+  visibility: hidden;
+  
+}
+input:checked + * + * + img{
+  display: block;
+}
+img {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  display: none;
+}
+label:hover {
+  background-color: rgb(197, 36, 162);
+}
+.label {
+  position: absolute;
+  right:calc(100vw - 500px);
+  top: 300px;
+  z-index: 1;
+
+} 
+    </style>
+
+<body>
+ <div class="slide">
+  <input type="radio" name="a" id="1">
+  <input type="radio" name="a" id="2">
+  <input type="radio" name="a" id="3">
+  <img src="https://travel.12306.cn/imgs/resources/uploadfiles/images/1716878f-79a2-4db1-af8c-b9c2039f0b3c_product_W572_H370.jpg" alt="">
+  
+  <img src="https://travel.12306.cn/imgs/resources/uploadfiles/images/fcd7173f-7651-46e7-a126-bdc199e1f6f7_product_W572_H370.jpg" alt="">
+  
+  <img src="https://travel.12306.cn/imgs/resources/uploadfiles/images/c7c03732-3c86-4308-aea7-df747d4999e8_product_W572_H370.jpg" alt="">
+    
+ </div>
+  <div class="label">
+    <label for="1">one</label>
+    <label for="2">two</label>
+    <label for="3">three</label>
+  </div>
+ 
+</body>
+</html>

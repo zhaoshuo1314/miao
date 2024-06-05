@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+ul {
+    padding: 0;
+  }
+  ul.menu {
+    padding:0;
+  }
+  li {
+    display: block;
+    
+  }
+  ul.menu li {
+    position: relative;
+  }
+  ul.menu > li {
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    font-size: 16px;
+  }
+  ul.menu li:hover > ul {
+    display: block;
+  }
+  ul.menu li:hover {
+    background-color: yellow;
+  }
+  ul.menu > li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    
+  }
+  ul.menu ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+<body>
+  
+   <ul class="menu">
+    <li>文件
+      <ul>
+        <li>a1 </li>
+        <li>bbb
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>ccef
+          <ul>
+            <li>111</li>
+            <li>222</li>
+            <li>333</li>
+          </ul>
+        </li>
+        <li>dd
+          <ul>
+            <li>111</li>
+            <li>222</li>
+            <li>333</li>
+          </ul>
+        </li>
+        <li>ee</li>
+      </ul>
+    </li>
+    <li>编辑
+      <ul>
+        <li>af
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>bbb
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>ccef
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>dd
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>eee
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>选择
+      <ul>
+        <li>b
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>bbb
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>cf
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>dd
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>eee
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>查看
+      <ul>
+        <li>af
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>bbb
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>ccef
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>dd
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+        <li>ee
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3wwww</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
